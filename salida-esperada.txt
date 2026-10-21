@@ -1,0 +1,64 @@
+==============================================
+  TecnoStore - RUC 20123456789
+  Av. Arequipa 1250, Lince - Lima
+==============================================
+
+--- 1. Configuración del sistema ---
+{ moneda: 'S/', igv: 0.18, descuentoMaximo: 25, mostrarStock: true }
+
+--- 2. Catálogo completo (8 productos) ---
+[Laptops] Laptop Lenovo IdeaPad 3 - S/ 2499.90 - Disponible (8 und.)
+[Laptops] Laptop HP Pavilion 15 - S/ 3199.00 - Disponible (5 und.)
+[Laptops] MacBook Air M2 - S/ 4899.00 - Disponible (2 und.)
+[Accesorios] Mouse Logitech M170 - S/ 39.90 - Disponible (50 und.)
+[Accesorios] Teclado Redragon Kumara - S/ 149.00 - AGOTADO
+[Accesorios] Audífonos Sony WH-CH520 - S/ 199.00 - Disponible (15 und.)
+[Monitores] Monitor LG 24" IPS - S/ 549.00 - Disponible (10 und.)
+[Monitores] Monitor Samsung 27" Curvo - S/ 899.00 - Disponible (3 und.)
+
+--- 3. Filtros ---
+Monitores: [ 'Monitor LG 24" IPS', 'Monitor Samsung 27" Curvo' ]
+Con stock: 7 de 8
+
+--- 4. Extremos de precio ---
+Más caro  : MacBook Air M2 (S/ 4899.00)
+Más barato: Mouse Logitech M170 (S/ 39.90)
+
+--- 5. Clientes registrados ---
+1. Ana Torres Quispe <ana.torres@correo.com> - Miraflores, Lima
+2. Luis Ramírez Huamán <luis.ramirez@correo.com> - Cercado, Arequipa
+3. María Flores Chávez <maria.flores@correo.com> - Víctor Larco, Trujillo
+
+--- 6. Descuentos y formatos ---
+Sin descuento     : S/ 1000.00
+Con 15% descuento : S/ 850.00
+Formato en dólares: $ 250.00
+Con 3 decimales   : S/ 99.500
+
+--- 7. Pedido ---
+Pedido : PED-0001
+Cliente: Ana Torres Quispe (frecuente)
+  - 1 x Laptop Lenovo IdeaPad 3 = S/ 2499.90
+  - 2 x Mouse Logitech M170 = S/ 79.80
+  - 1 x Monitor LG 24" IPS = S/ 549.00
+Subtotal          : S/ 3128.70
+Descuento aplicado: 10%
+Total (con IGV)   : S/ 3322.68
+
+--- 8. Actualización de stock ---
+Original   : [Accesorios] Teclado Redragon Kumara - S/ 149.00 - AGOTADO
+Actualizado: [Accesorios] Teclado Redragon Kumara - S/ 149.00 - Disponible (20 und.)
+
+--- 9. Suma de montos variables ---
+Ventas del día: S/ 4140.30
+
+--- 10. Ubicación del almacén ---
+Latitud: -12.0853 | Longitud: -77.0346
+
+--- 11. Eventos ---
+[INFO] Sistema iniciado | Catálogo cargado | Pedido procesado
+[ALERTA] Producto agotado | Teclado Redragon Kumara
+
+==============================================
+  Fin de la ejecución
+==============================================
