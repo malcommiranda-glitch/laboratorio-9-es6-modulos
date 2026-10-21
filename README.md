@@ -30,3 +30,7 @@ node app.js
 ## Verificación
 
 La salida de `app.js` se comparó con `salida-esperada.txt` y coincide con el resultado original.
+
+## Flujo de trabajo colaborativo
+
+Los cambios se desarrollan en ramas independientes y se integran a main mediante Pull Requests después de revisar el código.
