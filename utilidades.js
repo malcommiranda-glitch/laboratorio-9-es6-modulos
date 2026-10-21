@@ -37,19 +37,13 @@ export const resumenCliente = (cliente) => {
   return `${nombres} ${apellidos} <${email}> - ${distrito}, ${ciudad}`;
 };
 
-export const buscarProductoPorId = (catalogo, id) => {
-  for (let i = 0; i < catalogo.length; i++) {
-    if (catalogo[i].id === id) return catalogo[i];
-  }
-  return null;
-};
+// Optimizado con ES6+ .find()
+export const buscarProductoPorId = (catalogo, id) => 
+  catalogo.find(producto => producto.id === id) || null;
 
-export const buscarClientePorId = (listaClientes, id) => {
-  for (let i = 0; i < listaClientes.length; i++) {
-    if (listaClientes[i].id === id) return listaClientes[i];
-  }
-  return null;
-};
+// Optimizado con ES6+ .find()
+export const buscarClientePorId = (listaClientes, id) => 
+  listaClientes.find(cliente => cliente.id === id) || null;
 
 export const filtrarPorCategoria = (catalogo, categoria) =>
   catalogo.filter((producto) => producto.categoria === categoria);
@@ -60,14 +54,9 @@ export const productosDisponibles = (catalogo) =>
 export const listarNombres = (catalogo) =>
   catalogo.map((producto) => producto.nombre);
 
-// Rest reúne todos los argumentos en un arreglo.
-export const sumarMontos = (...montos) => {
-  let total = 0;
-  for (let i = 0; i < montos.length; i++) {
-    total += montos[i];
-  }
-  return total;
-};
+// Optimizado con ES6+ .reduce() para sumar montos variables
+export const sumarMontos = (...montos) => 
+  montos.reduce((total, monto) => total + monto, 0);
 
 export const registrarEvento = (tipo, ...etiquetas) => {
   console.log(`[${tipo.toUpperCase()}] ${etiquetas.join(' | ')}`);
